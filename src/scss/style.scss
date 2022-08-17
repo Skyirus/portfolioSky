@@ -1,0 +1,261 @@
+@import "base/_reset.scss";
+@import "fonts.scss";
+@import "layouts/header";
+
+// Main Section
+
+
+
+// backgraoud main 1
+
+._ibg {
+    position: relative;
+}
+
+._ibg img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.main-block__image {
+    position: absolute;
+    width: 100%;
+    height: 200vh;
+    top: 0;
+    left: 0;
+}
+
+// background main 2
+
+._ibg2 {
+    //position: relative;
+}
+
+._ibg2 img {
+    position: absolute;
+    top: 145%;
+    right: 0;
+    -o-object-fit: cover;
+    object-fit: cover;
+
+}
+
+.main-block__image2 {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    right: 0;
+}
+
+
+
+// block description main 
+
+.main-block__container {
+    height: 100vh;
+    z-index: 10;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+
+
+
+.header__content h1 {
+    font-style: normal;
+    margin-bottom: 16px;
+    //color: #000C24;
+    font-weight: 800;
+    font-size: 38px;
+    line-height: 43px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    //border: 1.5px dashed #FFFFFF;
+}
+
+.header__content p {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 27px;
+}
+
+.content__icons {
+    margin-top: 32px;
+}
+
+.content__icons img:not(:last-child) {
+    margin-right: 18px;
+}
+
+.scroll__button {
+    height: 50px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 13px;
+    margin-bottom: 5px;
+    color: #928A97;
+    display: flex;
+    text-transform: uppercase;
+    align-items: center;
+}
+
+.scroll__button img {
+    margin-right: 10px;
+    height: 30px;
+}
+
+
+
+// block bio main
+
+.bio-block__container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.main_bio_block__container {
+    padding-top: 80px;
+    position: relative;
+    z-index: 10;
+    display: flex;
+}
+
+.photo-block {
+    position: relative;
+}
+
+.photo-block .img-background {
+    position: absolute;
+    z-index: 5;
+}
+
+.photo-block .img-profil {
+    position: relative;
+    z-index: 10;
+    margin: 35px 0px 0px 50px
+}
+
+.description-block__container p,
+.skills-description__container {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 170%;
+    color: #000C24;
+}
+
+
+
+.description-block__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 35px;
+    margin-left: 55px;
+
+}
+
+.description-block__container h2,
+.skills-block__container h2 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 36px;
+    color: #F44336;
+}
+
+.description-block__container h3 {
+    color: #F44336;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 27px;
+}
+
+.description-block__container button {
+    background: #000C24;
+    border-radius: 4px;
+    width: 170px;
+    height: 53px;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 128.7%;
+}
+
+// skills main
+
+.skills-block__container {
+    height: 100vh;
+    z-index: 10;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.main-skills-block__container {
+    display: flex;
+    padding-top: 80px;
+
+}
+
+.skills-description__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 35px;
+    margin-right: 55px;
+}
+
+.images-skills-block__container {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 40px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.images-skills-block__container p {
+    margin-top: 8px;
+}
+
+// works main
+
+.techno-block__container {
+    display: flex;
+    gap: 10px;
+
+}
+
+.techno-block__container .techno-element {
+    background: #928A97;
+    border-radius: 4px;
+    padding: 8px 12px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 170%;
+}
+
+.indicator-block__container p {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000C24;
+}
+
+.carrousel_btn {
+    position: relative;
+    top: -50%;
+    right: -80%;
+    z-index: 15
+}
