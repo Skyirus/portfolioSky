@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="fr">
+@@include('html/head.html',{
+"title":"Home"
+})
+
+<body>
+
+    <main class="main__block main-block">
+
+        <!--backgrounds main_content-->
+
+        <div class="main-block__image _ibg">
+            <picture><img src="img/backGr.png" alt="Skyrus">
+            </picture>
+        </div>
+
+
+        <div class="main-block__image2 _ibg2">
+            <picture><img src="img/back3.png" alt="Skyrus">
+            </picture>
+        </div>
+
+        <!--Main_content-->
+
+        <!--First section-->
+
+        <div class="main-block__container flex_box_container _container">
+            @@include('html/header.html',{})
+            <div class="header__content">
+                <h1>Stenko Konstantin</h1>
+                <p>Mega Senior JS +React + VueJS + Angular + Rust + Linux </p>
+                <div class="content__icons">
+                    <img src="img/icons/github.png" alt="">
+                    <img src="img/icons/linkin.png" alt="">
+                </div>
+            </div>
+
+            <div class="scroll__button">
+                <img src="img/icons/Frame.png" alt="">
+                <p>Scroll</p>
+            </div>
+        </div>
+
+        <!--Second section-->
+
+        <div class="bio-block__container _container ">
+
+            <div class="main_bio_block__container">
+                <div class="photo-block">
+                    <img class="img-background" src="img/BG.png" alt="">
+                    <img class="img-profil" src="img/Group 4.png" alt="">
+                </div>
+                <div class="description-block__container">
+                    <h2>About Me</h2>
+                    <p>An inquisitive Computer Science Engineering student, skilled in leadership, seeking to leverage
+                        solid development skills with focus on collaboration, communication and passion.</p>
+                    <button type="button">Mon CV</button>
+                </div>
+            </div>
+
+            <div class="scroll__button">
+                <img src="img/icons/Frame.png" alt="">
+                <p>Scroll</p>
+            </div>
+
+        </div>
+
+        <!--Third section-->
+
+        <div class="skills-block__container _container">
+            <div class="main-skills-block__container">
+                <div class="skills-description__container">
+                    <h2>Skills</h2>
+                    <p>I enjoy creating things that live on the internet, whether that be websites, applications, or
+                        anything in between.</p>
+                    <div class="images-skills-block__container">
+                        <div class="icon-skills-flex">
+                            <img src="img/icons/html_icon.png" alt="html-image">
+                            <p>HTML5</p>
+                        </div>
+                        <div class="icon-skills-flex">
+                            <img src="img/icons/css_icon.png" alt="css-image">
+                            <p>CSS3</p>
+                        </div>
+                        <div class="icon-skills-flex">
+                            <img src="img/icons/js_icon.png" alt="js-image">
+                            <p>JS</p>
+                        </div>
+                        <div class="icon-skills-flex">
+                            <img src="img/icons/sql_icon.png" alt="sql-image">
+                            <p>SQL</p>
+                        </div>
+                        <div class="icon-skills-flex">
+                            <img src="img/icons/php_icon.png" alt="php-image">
+                            <p>PHP</p>
+                        </div>
+                        <div class="icon-skills-flex">
+                            <img src="img/icons/symfony-icon.png" alt="symfony-image">
+                            <p>PHP Symfony</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="image-skill-cover-block">
+                    <img src="img/skillsBackground.png" alt="">
+                </div>
+            </div>
+
+            <div class="scroll__button">
+                <img src="img/icons/Frame.png" alt="">
+                <p>Scroll</p>
+            </div>
+
+        </div>
+
+        <!--Fourth section-->
+
+        <div class="bio-block__container _container ">
+
+            <div class="main_bio_block__container">
+                <div class="photo-block">
+                    <img class="img-background" src="img/BG.png" alt="">
+                    <img class="img-profil" src="img/works_picture.png" alt="">
+                    <img class="carrousel_btn" src="img/carrousel-btn.png" alt="">
+                </div>
+                <div class="description-block__container">
+                    <h2>Works</h2>
+                    <h3>ImmoKoz</h3>
+                    <p>An inquisitive Computer Science Engineering student, skilled in leadership, seeking to leverage
+                        solid development skills with focus on collaboration, communication and passion. </p>
+                    <div class="techno-block__container">
+                        <div class="techno-element">HTML</div>
+                        <div class="techno-element">JS</div>
+                        <div class="techno-element">Symfony</div>
+                        <div class="techno-element">PHP</div>
+                    </div>
+                    <div>
+                        <img src="img/icons/github.png" alt="">
+                    </div>
+                    <div class="indicator-block__container">
+                        <p>01</p>
+                        <img src="img/indicator-bare.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="scroll__button">
+                <img src="img/icons/Frame.png" alt="">
+                <p>Scroll</p>
+            </div>
+
+        </div>
+
+
+
+
+
+    </main>
+
+    @@include('html/footer.html',{})
+    <script src="js/app.min.js"></script>
+</body>
+
+</html>
